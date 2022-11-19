@@ -22,6 +22,11 @@ export default function Header() {
               </Link>
             </li>
             <li>
+              <Link to="/rockets" className="sai">
+                Rockets
+              </Link>
+            </li>
+            <li>
               <Link to="/crew" className="sai">
                 Crew
               </Link>
@@ -29,11 +34,6 @@ export default function Header() {
             <li>
               <Link to="/dragons" className="sai">
                 Dragons
-              </Link>
-            </li>
-            <li>
-              <Link to="/rockets" className="sai">
-                Rockets
               </Link>
             </li>
           </ul>
